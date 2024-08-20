@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+  color: #2d2d2d;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  gap: 1100px;
+}
+nav .logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+nav .nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.hero-section .section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-section .section1 .text1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.hero-section .section1 .text2 {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 90px;
+}
+.hero-section .section1 .text3 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.icons-section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 60px 0px;
+  border-top: 2px solid #00000033;
+  border-bottom: 2px solid #00000033;
+  justify-content: space-between;
+}
+.icons-section .icons {
+  display: flex;
+  /* gap: 50px; */
+  justify-content: space-around;
+}
+
+.skills-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+}
+.skills-section .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  height: 328px;
+}
+.skills-section .skill img {
+  height: 130px;
+  width: 130px;
+}
+.skills-section .skill .heading {
+  font-size: 27px;
+  line-height: 42px;
+  font-weight: 600;
+  /* text-align: center; */
+}
+.skills-section .skill .text {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.latest-work-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.latest-work-section .heading {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+.latest-work-section .latest-work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+  justify-content: center;
+}
+.latest-work-section .latest-work-cards .latest-work-card .text1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.latest-work-section .latest-work-cards .latest-work-card .text2 {
+  font-size: 17px;
+  line-height: 27px;
+  font-size: 400;
+}
+.latest-work-section .see-more-btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+.clients-section {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.clients-section .heading {
+  font-size: 32px;
+  line-height: 33px;
+  font-weight: 600;
+  text-align: center;
+}
+.clients-section .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 68px;
+}
+.clients-section .cards .card {
+  height: 345px;
+  width: 315px;
+  border: 1.5px solid #ffd285;
+  border-radius: 5px;
+  background-color: #fffcf5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 30px 50px 30px 30px;
+}
+.clients-section .cards .card .author {
+  display: flex;
+  gap: 20px;
+}
+.clients-section .cards .card .text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 200px;
+}
+footer .section1,
+footer .section2,
+footer .section2 form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+footer .section1 {
+  gap: 60px;
+}
+footer .section2 form {
+  gap: 20px;
+}
+footer .section2 {
+  gap: 40px;
+}
+footer .section1 .heading {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+}
+footer .section1 .text {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+}
+footer .section2 .name,
+footer .section2 .email {
+  height: 69px;
+  width: 530px;
+  padding: 21px 30px 21px 30px;
+}
+footer .section2 textarea {
+  height: 231px;
+  width: 530px;
+  padding: 21px 30px 21px 30px;
+}
+footer .section2 .name,
+footer .section2 .email,
+footer .section2 textarea {
+  background-color: #f3f3f3;
+  border: none;
+}
+footer .section2 button, .latest-work-section button {
+  height: 80px;
+  width: 235px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+}
